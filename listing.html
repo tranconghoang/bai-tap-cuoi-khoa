@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="css/css-for-page-1.css" rel="stylesheet">
+    <link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .bottom-part {
+            background-color: #F2F2F2;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="width-restriction">
+            <div>
+                <h1 class="banner-name"><a href="index.html" alt="#">NORDIC
+                    CODER</a></h1>
+            </div>
+            <nav class="banner-nav nav-name">
+                <ul class="nav-section">
+                    <li>
+                        <a href="404.html">New</a>
+                    </li>
+                    <li>
+                        <a href="shop.html">Shop</a>
+                        <ul class="nav-subsection">
+                            <li>Top</li>
+                            <li>Accessories
+                                <ul class="nav-subsection-2">
+                                    <li>Bags</li>
+                                    <li>Hats</li>
+                                    <li>Belts</li>
+                                </ul>
+                            </li>
+                            <li>Jeans</li>
+                            <li>Jacket</li>
+                            <li>Shoes</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="404.html">Sale</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a class="hover" href="404.html"><i class="fas fa-shopping-cart"></i>
+                            <p class="noitem">No item in cart! buy some !!!</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <br>
+    <div class="listingsectioncontainer">
+        <div class="listing-section">
+            <div class="col-a">
+                <div class="unselected-img">
+                    <img src="img/Rectangle-24.jpg" alt="#">
+                </div>
+                <div class="unselected-img">
+                    <img src="img/Rectangle-25.jpg" alt="#">
+                </div>
+                <div class="unselected-img">
+                    <img src="img/Rectangle-26.jpg" alt="#">
+                </div>
+                <div class="selected-img">
+                    <img src="img/Rectangle-27.jpg" alt="#">
+                </div>
+            </div>
+            <div class="col-b">
+                <img src="img/Rectangle-a.jpg" alt="#">
+            </div>
+            <div class="col-c">
+                <div class="col-3-1">
+                    <p>Home <i class="fas fa-chevron-right"></i> Jackets <i class="fas fa-chevron-right"></i> Julia</p>
+                    <p class="listing-name">Julia</p>
+                    <p class="listing-price">$249</p>
+                    <div class="color">
+                        <p>Color</p>
+                        <div class="clr-size color-wheel">
+                            <button class=" listing-button"></button>
+                            <button class=" listing-button"></button>
+                            <button class=" listing-button"></button>
+                        </div>
+                    </div>
+                    <div class="size">
+                        <p>Size</p>
+                        <div class="clr-size ">
+                            <button class="size-button">XS</button>
+                            <button class="size-button">S</button>
+                            <button class="size-button">M</button>
+                            <button class="size-button">L</button>
+                        </div>
+                    </div>
+                    <div class="atc-section">
+                        <div class="change-quantity-button">
+                            <button><i class="fas fa-minus"></i></button> <input type="number" name="quantity" min="1" max="10">
+                            <button><i class="fas fa-plus"></i></button>
+                        </div>
+                        <div class="atc-midsection">
+                            <p><span class="atc">Add to cart</span> <i class="fas fa-arrow-circle-right"></i></p>
+                        </div>
+                        <div class="heart-button">
+                            <!-- <button><i class="far fa-heart"></i></button> -->
+                            <input type="image" src="img/heartvector.svg" alt="submit" width="20px" height="20px">
+                        </div>
+                    </div>
+                    <p style="margin-top:10px">SKU: 86423-AB<br>Category:<span style="color:red;"> Jacket</span></p>
+                </div>
+                <div class="col-3-2">
+                    <button>Share</button>
+                    <button><i class="fab fa-facebook-f"></i></button>
+                    <button><i class="fab fa-twitter"></i></button>
+                    <button><i class="fab fa-google-plus-g"></i></button>
+                    <button><i class="fab fa-pinterest"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Nav pills -->
+        <div class="navigation-pills">
+            <ul class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#home">Description</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color:gray;" class="nav-link" data-toggle="pill" href="#menu1">Additional Information</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color:gray;" class="nav-link" data-toggle="pill" href="#menu2">Reviews (1)</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="home" class="container tab-pane active"><br>
+                <p style="text-transform:uppercase;color:#828282;">Content & Care</p>
+                <ul style="list-style:disc;text-indent:-20px;font-weight:700;">
+                    <li>Nylon, Metallic, Spandex</li>
+                    <li>Imported</li>
+                    <li>Dry Flat</li>
+                </ul>
+                <p style="text-transform:uppercase;color:#828282;">Details & Fit</p>
+                <ul style="list-style:disc;text-indent:-20px;font-weight:700;">
+                    <li>Length: 32"</li>
+                    <li>Measured in size Small</li>
+                </ul>
+                <p style="font-weight:700;">Red modeled on size Small.<br>Model's profile:height 5'7, bust 32", waist 25"</p>
+            </div>
+            <div id="menu1" class="container tab-pane fade"><br>
+                <h3>Uh...it's good?</h3>
+                <p>Seriously idk what to say lol</p>
+            </div>
+            <div id="menu2" class="container tab-pane fade"><br>
+                <h3>AWESOME</h3>
+                <p>Review made by the one who created this website LOL</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-rel-products">
+        <p>Related Products</p>
+        <div class="rel-products">
+            <div>
+                <a href="listing.html"><img src="img/Rectanglez.jpg" alt=""></a>
+                <p>Julia<br> $99.00 <span style=" text-decoration: line-through;">$119.00</span></p>
+            </div>
+            <div>
+                <a href="listing.html"><img src="img/Rectanglex.jpg" alt=""></a>
+                <p>Julia<br> $99.00 <span style=" text-decoration: line-through;">$119.00</span></p>
+            </div>
+            <div>
+                <a href="listing.html"><img src="img/Rectanglec.jpg" alt=""></a>
+                <p>Julia<br> $99.00 <span style=" text-decoration: line-through;">$119.00</span></p>
+            </div>
+            <div>
+                <a href="listing.html"><img src="img/Rectanglev.jpg" alt=""></a>
+                <p>Julia<br> $99.00 <span style=" text-decoration: line-through;">$119.00</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-part">
+        <div class=" FAQ clearfix ">
+            <div class=" FAQ-inner ">
+                <a href="about-us.html">
+                    <h3>About us</h3>
+                </a>
+                <ul class=" FAQ-list ">
+                    <li>Our company</li>
+                    <li>Our history</li>
+                    <a href="contact.html">
+                        <li>Contact</li>
+                    </a>
+                    <li>Jobs</li>
+                    <li>Journal</li>
+                    <li>Store Locations</li>
+                </ul>
+            </div>
+            <div class=" FAQ-inner ">
+                <a href="contact.html">
+                    <h3>How can we help?</h3>
+                </a>
+                <ul class=" FAQ-list ">
+                    <li>FAQs</li>
+                    <li>Order tracking</li>
+                    <li>Term & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Returns & Refunds</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div class=" FAQ-inner ">
+                <a href="shop.html">
+                    <h3>Shop with us</h3>
+                </a>
+                <ul class=" FAQ-list ">
+                    <li>Tops</li>
+                    <li>Accessories</li>
+                    <li>Jeans</li>
+                    <li>Jacket</li>
+                    <li>Shoes</li>
+                </ul>
+            </div>
+            <div class=" FAQ-inner">
+                <h3>Security</h3>
+                <ul class=" FAQ-list security ">
+                    <li> PCI security standards</li>
+                    <li> Protect card owner</li>
+                    <li> Encrypted network</li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © 2020 Tran Cong Hoang. All rights reserved</p>
+        </footer>
+    </div>
+</body>
+
+</html>
